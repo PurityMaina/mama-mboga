@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-unction MyApp(){  
+function MyApp(){  
   
-retfurn (
+return (
   class MumMboga {
   
     constructor() {
@@ -57,7 +57,7 @@ retfurn (
         let productsCatalog={
           product:productname,
           quantity:productquantity,
-  //       this.productCatalog.push(productsCatalog)
+     //   this.productCatalog.push(productsCatalog)
         
         }
         return(this.productCatalog)
@@ -140,7 +140,7 @@ retfurn (
       this.customers.push(customer2);
     } 
     
-  }
+  
   var brocolli = new MumMboga();
   brocolli.addProduct(23,"brocolli","150",3);
   brocolli.addProduct(22,"cucumber","15",7);
@@ -165,6 +165,7 @@ retfurn (
   var customer= new MumMboga();
   customer.addCustomer(256,"starr","njambi@hotmail.com",144);
   console.log(customer.customers);
-              
-)
-  ReactDOM.render(<MyApp />,document.getElementsByClassName=("MumMboga"))
+        
+  };
+  ReactDOM.render(<MyApp />,document.getElementsById=("MumMboga"))
+  //Additional changes!
