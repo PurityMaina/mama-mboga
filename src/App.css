@@ -58,7 +58,7 @@ body {
   background-color: orange
 }
 
-.three {
+/* .three {
   float:left;
   width:33.33%;
   margin:15px;
@@ -76,4 +76,24 @@ body {
 }
 .three{
   clear:both;
+} */
+/* .one{
+  
+ 
+}
+.two{
+  
+  margin: 30px;
+} */
+img{
+  height: 300px;
+  width: 300px;
+  
+  
+}
+
+.three{
+ 
+
+   margin: 350px; 
 }

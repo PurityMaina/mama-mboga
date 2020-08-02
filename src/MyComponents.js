@@ -12,7 +12,7 @@ class Spinach extends React.Component {
   }
   render() {
     return (
-      <div class = "one">
+      <div className = "one">
         <img src = "/images/spinach.jpeg" alt="" />
         <ul>
           <p>Type:{this.state.type}</p>
@@ -36,7 +36,7 @@ class Onions extends React.Component {
   }
   render() {
     return (
-      <div class = "two">
+      <div className = "two">
         <img src = "/images/onions.jpeg" alt=""  />
         <ul>
           <p>Type:{this.state.type}</p>
@@ -61,8 +61,7 @@ class Oranges extends React.Component {
   } 
   render() {
     return (
-      <div class = "three">
-    <MyNavBar />
+      <div className = "three">
         <img src = "/images/oranges.jpeg" alt = "" />
         <ul>
           <p>Type:{this.state.type}</p>
@@ -79,7 +78,7 @@ class Oranges extends React.Component {
 
  function MyNavBar(){
   return (
-    <div class= "four">
+    <div className= "nav">
       <body>
       <header>
       <nav>
